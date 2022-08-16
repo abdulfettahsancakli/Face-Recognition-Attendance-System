@@ -1,4 +1,5 @@
-# Fettah Sancaklı
+# ABDULFETTAH SANCAKLI
 
-## Student Attendance Management System 
-With Face Recognition
+## Face Recognition Student Attendance System
+### Python-OpenCv-Tkinter-MySQL
+
