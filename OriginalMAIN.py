@@ -23,14 +23,14 @@ class OriginalMAIN:
 
 
         # #Background Image
-        bg=Image.open(r"Images_GUI\MainWallpaper.png")
+        bg=Image.open(r"Images\MainWallpaper.png")
         self.photobg= ImageTk.PhotoImage(bg)
 
         bg_img=Label(self.root, image=self.photobg)
         bg_img.place(x=0, y=0)
 
         #  first image
-        img = Image.open(r"Images_GUI\Face-Recognition-Based-Attendance-System-1024x311.jpg")
+        img = Image.open(r"Images\Face-Recognition-Based-Attendance-System-1024x311.jpg")
         img = img.resize((1200, 180), Image.ANTIALIAS)
         self.photoimg = ImageTk.PhotoImage(img)
 
@@ -42,7 +42,7 @@ class OriginalMAIN:
         # ========================================================================
         # ============================Student Button==============================
         # ========================================================================
-        newstd = Image.open(r"Images_GUI\NewStudentEnrollment.png")
+        newstd = Image.open(r"Images\NewStudentEnrollment.png")
         newstd = newstd.resize((200, 100), Image.ANTIALIAS)
         self.photonewstd = ImageTk.PhotoImage(newstd)
 
@@ -55,7 +55,7 @@ class OriginalMAIN:
         # ========================================================================
         # ============================Face Detector===============================
         # ========================================================================
-        detect = Image.open(r"Images_GUI\det1.jpg")
+        detect = Image.open(r"Images\det1.jpg")
         detect = detect.resize((200, 100), Image.ANTIALIAS)
         self.photodetect = ImageTk.PhotoImage(detect)
 
@@ -68,7 +68,7 @@ class OriginalMAIN:
         # ========================================================================
         # ============================Train Data =================================
         # ========================================================================
-        train = Image.open(r"Images_GUI\Train2.jpg")
+        train = Image.open(r"Images\Train2.jpg")
         train = train.resize((200, 100), Image.ANTIALIAS)
         self.phototrain = ImageTk.PhotoImage(train)
 
@@ -81,7 +81,7 @@ class OriginalMAIN:
         # ========================================================================
         # ============================Face Recognition============================
         # ========================================================================
-        rcg = Image.open(r"Images_GUI\KlasikFace.jpeg")
+        rcg = Image.open(r"Images\KlasikFace.jpeg")
         rcg = rcg.resize((200, 100), Image.ANTIALIAS)
         self.photorcg = ImageTk.PhotoImage(rcg)
 
@@ -94,7 +94,7 @@ class OriginalMAIN:
         # ========================================================================
         # ============================Mask Detection=============================
         # ========================================================================
-        mask = Image.open(r"Images_GUI\Search.jpg")
+        mask = Image.open(r"Images\Search.jpg")
         mask = mask.resize((200, 100), Image.ANTIALIAS)
         self.photomask = ImageTk.PhotoImage(mask)
 
@@ -108,7 +108,7 @@ class OriginalMAIN:
         # ============================Attendance=============================
         # ========================================================================
         
-        att = Image.open(r"Images_GUI\att.jpg")
+        att = Image.open(r"Images\att.jpg")
         att = att.resize((200, 100), Image.ANTIALIAS)
         self.photoatt = ImageTk.PhotoImage(att)
         
@@ -122,7 +122,7 @@ class OriginalMAIN:
         # ============================Import/Export===============================
         # ========================================================================
 
-        ie = Image.open(r"Images_GUI\ImportExport.png")
+        ie = Image.open(r"Images\ImportExport.png")
         ie = ie.resize((180, 100), Image.ANTIALIAS)
         self.photoie = ImageTk.PhotoImage(ie)
 
