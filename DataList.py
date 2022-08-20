@@ -12,7 +12,7 @@ class DataList:
      self.root.geometry("1200x675+0+0")
      self.root.title("DataList")
 
-     img2 = Image.open(r"Images_GUI\Search.jpg")
+     img2 = Image.open(r"Images\Search.jpg")
      img2 = img2.resize((1200, 180), Image.ANTIALIAS)
      self.photoimg2 = ImageTk.PhotoImage(img2)
 
@@ -37,14 +37,14 @@ class DataList:
      search_entry.place(x=515,y=25)
 
 
-     searchicon = Image.open(r"Images_GUI\magnifier.png")
+     searchicon = Image.open(r"Images\magnifier.png")
      searchicon = searchicon.resize((64, 64), Image.ANTIALIAS)
      self.photosearchicon = ImageTk.PhotoImage(searchicon)
 
      search = Button(search_frame, command=self.search_data,bg="white", image=self.photosearchicon, cursor="hand2")
      search.place(x=720, y=0, width=70, height=70)
 
-     showallicon = Image.open(r"Images_GUI\all.png")
+     showallicon = Image.open(r"Images\all.png")
      showallicon = showallicon.resize((64, 64), Image.ANTIALIAS)
      self.photoshowallicon = ImageTk.PhotoImage(showallicon)
 
