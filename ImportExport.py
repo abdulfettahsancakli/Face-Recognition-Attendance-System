@@ -30,7 +30,7 @@ class ImportExport:
      self.var_gender = StringVar()
      self.var_time =StringVar()
 
-     img2 = Image.open(r"Images_GUI\impexp.jpg")
+     img2 = Image.open(r"Images\impexp.jpg")
      img2 = img2.resize((1200, 180), Image.ANTIALIAS)
      self.photoimg2 = ImageTk.PhotoImage(img2)
 
@@ -43,7 +43,7 @@ class ImportExport:
      main_frame2 = Frame(self.root, bd=2, bg="#888888")
      main_frame2.place(x=350, y=180, width=350, height=675)
 
-     faculty = Image.open(r"Images_GUI\AttendanceReport.jpg")
+     faculty = Image.open(r"Images\AttendanceReport.jpg")
      faculty = faculty.resize((400, 495), Image.ANTIALIAS)
      self.photofaculty = ImageTk.PhotoImage(faculty)
 
@@ -137,7 +137,7 @@ class ImportExport:
 
      # =========================Buttons =================================
      # =========================Save =================================
-     save = Image.open(r"Images_GUI\icons8-import-csv-80.png")
+     save = Image.open(r"Images\icons8-import-csv-80.png")
      save = save.resize((80, 80), Image.ANTIALIAS)
      self.photosave = ImageTk.PhotoImage(save)
 
@@ -151,7 +151,7 @@ class ImportExport:
 
      # =========================Update =================================
 
-     updt = Image.open(r"Images_GUI\Update.webp")
+     updt = Image.open(r"Images\Update.webp")
      updt = updt.resize((80, 80), Image.ANTIALIAS)
      self.photoupdt = ImageTk.PhotoImage(updt)
 
@@ -159,7 +159,7 @@ class ImportExport:
      b1.place(x=150, y=290, width=80, height=80)
 
      # =========================Export Csv =================================
-     dlt = Image.open(r"Images_GUI\icons8-export-csv-80.png")
+     dlt = Image.open(r"Images\icons8-export-csv-80.png")
      dlt = dlt.resize((80, 80), Image.ANTIALIAS)
      self.photodlt = ImageTk.PhotoImage(dlt)
 
@@ -173,7 +173,7 @@ class ImportExport:
      b1_2.place(x=280, y=370, width=80, height=40)
 
      # =========================Reset =================================
-     rst = Image.open(r"Images_GUI\reset.jpg")
+     rst = Image.open(r"Images\reset.jpg")
      rst = rst.resize((80, 80), Image.ANTIALIAS)
      self.photorst = ImageTk.PhotoImage(rst)
 
