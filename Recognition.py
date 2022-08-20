@@ -33,14 +33,14 @@ class Recognition:
         self.root.title("Face Recognition")
         #self.root.resizable(0,0)
 
-        img = Image.open(r"Images_GUI\Recognition.webp")
+        img = Image.open(r"Images\Recognition.webp")
         img = img.resize((1200,150), Image.ANTIALIAS)
         self.photoimg = ImageTk.PhotoImage(img)
 
         f_lbl = Label(self.root, image=self.photoimg)
         f_lbl.place(x=0, y=0, width=1200, height=150)
 
-        ie = Image.open(r"C:\Users\FET-PC\Desktop\Face\Images_GUI\FaceRecognitionButton.webp")
+        ie = Image.open(r"Images\FaceRecognitionButton.webp")
         ie = ie.resize((180, 100), Image.ANTIALIAS)
         self.photoie = ImageTk.PhotoImage(ie)
 
@@ -58,7 +58,7 @@ class Recognition:
         # b1_2.place(x=0, y=350, width=200, height=40)
 
 
-        img2 = Image.open(r"Images_GUI\Recoognition2.webp")
+        img2 = Image.open(r"Images\Recoognition2.webp")
         img2 = img2.resize((1200,150), Image.ANTIALIAS)
         self.photoimg2 = ImageTk.PhotoImage(img2)
 
