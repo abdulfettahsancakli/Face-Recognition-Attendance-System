@@ -29,7 +29,7 @@ class FaceDetect:
         self.var_gender = StringVar()
 
         # first image
-        img = Image.open(r"Images_GUI\banner.jpg")
+        img = Image.open(r"Images\banner.jpg")
         img = img.resize((500, 130), Image.ANTIALIAS)
         self.photoimg = ImageTk.PhotoImage(img)
 
@@ -37,7 +37,7 @@ class FaceDetect:
         f_lbl.place(x=0, y=0, width=500, height=130)
 
         # second image
-        img1 = Image.open(r"Images_GUI\banner.jpg")
+        img1 = Image.open(r"Images\banner.jpg")
         img1 = img1.resize((500, 130), Image.ANTIALIAS)
         self.photoimg1 = ImageTk.PhotoImage(img1)
 
@@ -45,7 +45,7 @@ class FaceDetect:
         f_lbl.place(x=0, y=0, width=500, height=130)
 
         # third image
-        img2 = Image.open(r"Images_GUI\banner.jpg")
+        img2 = Image.open(r"Images\banner.jpg")
         img2 = img2.resize((550, 130), Image.ANTIALIAS)
         self.photoimg2 = ImageTk.PhotoImage(img2)
 
@@ -86,7 +86,7 @@ class FaceDetect:
         course_entry.place(x=860, y=200)
 
 
-        dtct = Image.open(r"Images_GUI\det1.jpg")
+        dtct = Image.open(r"Images\det1.jpg")
         dtct = dtct.resize((150, 100), Image.ANTIALIAS)
         self.photodtct = ImageTk.PhotoImage(dtct)
 
