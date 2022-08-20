@@ -33,7 +33,7 @@ class StudentEnroll:
      self.var_mob = StringVar()
      self.var_gender = StringVar()
 
-     img2 = Image.open(r"Images_GUI\NEW STUDENT ENROLLMENT.png")
+     img2 = Image.open(r"Images\NEW STUDENT ENROLLMENT.png")
      img2 = img2.resize((1200,180), Image.ANTIALIAS)
      self.photoimg2 = ImageTk.PhotoImage(img2)
 
@@ -54,7 +54,7 @@ class StudentEnroll:
      main_frame3.place(x=700, y=180, width=500, height=675)
 
      # ============================Faculty Image===============================
-     faculty = Image.open(r"Images_GUI\Faculty-Information.jpg")
+     faculty = Image.open(r"Images\Faculty-Information.jpg")
      faculty = faculty.resize((400, 82), Image.ANTIALIAS)
      self.photofaculty = ImageTk.PhotoImage(faculty)
 
@@ -63,7 +63,7 @@ class StudentEnroll:
      # =====================================================================
 
      # ============================Student Information Image===============================
-     stdinfo = Image.open(r"Images_GUI\StudentInformation.png")
+     stdinfo = Image.open(r"Images\StudentInformation.png")
      stdinfo = stdinfo.resize((400, 80), Image.ANTIALIAS)
      self.photostdinfo = ImageTk.PhotoImage(stdinfo)
 
@@ -213,7 +213,7 @@ class StudentEnroll:
 
      # =========================Buttons =================================
      # =========================Save =================================
-     save = Image.open(r"Images_GUI\Save.webp")
+     save = Image.open(r"Images\Save.webp")
      save = save.resize((80,80), Image.ANTIALIAS)
      self.photosave = ImageTk.PhotoImage(save)
 
@@ -222,7 +222,7 @@ class StudentEnroll:
 
      # =========================Update =================================
 
-     updt = Image.open(r"Images_GUI\Update.webp")
+     updt = Image.open(r"Images\Update.webp")
      updt = updt.resize((80, 80), Image.ANTIALIAS)
      self.photoupdt = ImageTk.PhotoImage(updt)
 
@@ -230,7 +230,7 @@ class StudentEnroll:
      b1.place(x=150, y=290, width=80, height=80)
 
      # =========================Delete =================================
-     dlt = Image.open(r"Images_GUI\Delete2.webp")
+     dlt = Image.open(r"Images\Delete2.webp")
      dlt = dlt.resize((80, 80), Image.ANTIALIAS)
      self.photodlt = ImageTk.PhotoImage(dlt)
 
@@ -238,7 +238,7 @@ class StudentEnroll:
      b1.place(x=280, y=290, width=80, height=80)
 
      # =========================Reset =================================
-     rst = Image.open(r"Images_GUI\reset.jpg")
+     rst = Image.open(r"Images\reset.jpg")
      rst = rst.resize((80, 80), Image.ANTIALIAS)
      self.photorst = ImageTk.PhotoImage(rst)
 
