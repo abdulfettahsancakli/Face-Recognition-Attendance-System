@@ -34,7 +34,7 @@ class LoginPage:
         # ========================================================================
         # ============================background image============================
         # ========================================================================
-        self.bg_frame = Image.open('Images_GUI\\background1.png')
+        self.bg_frame = Image.open('Images\\background1.png')
         photo = ImageTk.PhotoImage(self.bg_frame)
         self.bg_panel = Label(self.window, image=photo)
         self.bg_panel.image = photo
@@ -53,7 +53,7 @@ class LoginPage:
         # ========================================================================
         # ============ Left Side Image ================================================
         # ========================================================================
-        self.side_image = Image.open('Images_GUI\\GirişOriginal.jpg')
+        self.side_image = Image.open('Images\\GirişOriginal.jpg')
         photo = ImageTk.PhotoImage(self.side_image)
         self.side_image_label = Label(self.lgn_frame, image=photo, bg='#040405')
         self.side_image_label.image = photo
@@ -62,7 +62,7 @@ class LoginPage:
         # ========================================================================
         # ============ Sign In Image =============================================
         # ========================================================================
-        self.sign_in_image = Image.open('Images_GUI\\hyy.png')
+        self.sign_in_image = Image.open('Images\\hyy.png')
         photo = ImageTk.PhotoImage(self.sign_in_image)
         self.sign_in_image_label = Label(self.lgn_frame, image=photo, bg='#040405')
         self.sign_in_image_label.image = photo
@@ -86,7 +86,7 @@ class LoginPage:
         self.username_line = Canvas(self.lgn_frame, width=300, height=2.0, bg="#bdb9b1", highlightthickness=0)
         self.username_line.place(x=550, y=359)
         # ===== Username icon =========
-        self.username_icon = Image.open('Images_GUI\\username_icon.png')
+        self.username_icon = Image.open('Images\\username_icon.png')
         photo = ImageTk.PhotoImage(self.username_icon)
         self.username_icon_label = Label(self.lgn_frame, image=photo, bg='#040405')
         self.username_icon_label.image = photo
@@ -95,7 +95,7 @@ class LoginPage:
         # ========================================================================
         # ============================login button================================
         # ========================================================================
-        self.lgn_button = Image.open('Images_GUI\\btn1.png')
+        self.lgn_button = Image.open('Images\\btn1.png')
         photo = ImageTk.PhotoImage(self.lgn_button)
         self.lgn_button_label = Label(self.lgn_frame, image=photo, bg='#040405')
         self.lgn_button_label.image = photo
@@ -115,7 +115,7 @@ class LoginPage:
         # ========================================================================
         # ============================Sıgn Up Button==============================
         # ========================================================================
-        self.signup_img = ImageTk.PhotoImage(file='Images_GUI\\register.png')
+        self.signup_img = ImageTk.PhotoImage(file='Images\\register.png')
         self.signup_button_label = Button(self.lgn_frame,command=self.registerwindow, image=self.signup_img, bg='#98a65d', cursor="hand2",borderwidth=0, background="#040405", activebackground="#040405")
         self.signup_button_label.place(x=670, y=555, width=111, height=35)
 
@@ -133,17 +133,17 @@ class LoginPage:
 
 
         # ======== Password icon ================
-        self.password_icon = Image.open('Images_GUI\\password_icon.png')
+        self.password_icon = Image.open('Images\\password_icon.png')
         photo = ImageTk.PhotoImage(self.password_icon)
         self.password_icon_label = Label(self.lgn_frame, image=photo, bg='#040405')
         self.password_icon_label.image = photo
         self.password_icon_label.place(x=550, y=414)
         # ========= show/hide password ==================================================================
         self.show_image = ImageTk.PhotoImage \
-            (file='Images_GUI\\show.png')
+            (file='Images\\show.png')
 
         self.hide_image = ImageTk.PhotoImage \
-            (file='Images_GUI\\hide.png')
+            (file='Images\\hide.png')
 
         self.show_button = Button(self.lgn_frame, image=self.show_image, command=self.show, relief=FLAT,activebackground="white", borderwidth=0, background="white", cursor="hand2")
         self.show_button.place(x=860, y=420)
