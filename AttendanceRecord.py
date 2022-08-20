@@ -20,7 +20,7 @@ class AttendanceRecord:
      self.var_dt2=StringVar()
 
 
-     img2 = Image.open(r"Images_GUI\Best-attendance-tracking-software.jpg")
+     img2 = Image.open(r"Images\Best-attendance-tracking-software.jpg")
      img2 = img2.resize((1200, 180), Image.ANTIALIAS)
      self.photoimg2 = ImageTk.PhotoImage(img2)
 
@@ -55,7 +55,7 @@ class AttendanceRecord:
      allstudents = Label(search_frame, text="See All Attendance ", font=("verdana", 12, "bold"), fg="black",bg="#888888")
      allstudents.place(x=875, y=-10)
 
-     showallicon = Image.open(r"Images_GUI\all.png")
+     showallicon = Image.open(r"Images\all.png")
      showallicon = showallicon.resize((64, 64), Image.ANTIALIAS)
      self.photoshowallicon = ImageTk.PhotoImage(showallicon)
 
@@ -82,7 +82,7 @@ class AttendanceRecord:
      myCal=Calendar(search_frame,setmde="day",date_pattern="dd/mm/yyyy")
      myCal.place(x=0,y=50)
 
-     pickdateicon = Image.open(r"Images_GUI\PickDate.png")
+     pickdateicon = Image.open(r"Images\PickDate.png")
      pickdateicon = pickdateicon.resize((30,30), Image.ANTIALIAS)
      self.photopickdateicon = ImageTk.PhotoImage(pickdateicon)
 
@@ -96,14 +96,14 @@ class AttendanceRecord:
      openCal2.place(x=125,y=267)
 
 
-     searchicon2 = Image.open(r"Images_GUI\magnifier.png")
+     searchicon2 = Image.open(r"Images\magnifier.png")
      searchicon2 = searchicon2.resize((64, 64), Image.ANTIALIAS)
      self.photosearchicon2 = ImageTk.PhotoImage(searchicon2)
 
      search2 = Button(search_frame, command=self.search_data, bg="white", image=self.photosearchicon2, cursor="hand2")
      search2.place(x=500, y=15, width=70, height=70)
 
-     searchicon = Image.open(r"Images_GUI\searchdateicon2.jpg")
+     searchicon = Image.open(r"Images\searchdateicon2.jpg")
      searchicon = searchicon.resize((64, 64), Image.ANTIALIAS)
      self.photosearchicon = ImageTk.PhotoImage(searchicon)
 
