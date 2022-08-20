@@ -30,7 +30,7 @@ class Register:
         # ========================================================================
         # ============================background image============================
         # ========================================================================
-        self.bg_frame = Image.open('Images_GUI\\background1.png')
+        self.bg_frame = Image.open('Images\\background1.png')
         photo = ImageTk.PhotoImage(self.bg_frame)
         self.bg_panel = Label(self.window, image=photo)
         self.bg_panel.image = photo
@@ -50,7 +50,7 @@ class Register:
         # ========================================================================
         # ============ Left Side Image ================================================
         # ========================================================================
-        self.side_image = Image.open('Images_GUI\\YGiriş.jpg')
+        self.side_image = Image.open('Images\\YGiriş.jpg')
         photo = ImageTk.PhotoImage(self.side_image)
         self.side_image_label = Label(self.lgn_frame, image=photo, bg='#040405')
         self.side_image_label.image = photo
@@ -59,7 +59,7 @@ class Register:
         # ========================================================================
         # ============ Register Image =============================================
         # ========================================================================
-        self.sign_in_image = Image.open('Images_GUI\\hyy.png')
+        self.sign_in_image = Image.open('Images\\hyy.png')
         photo = ImageTk.PhotoImage(self.sign_in_image)
         self.sign_in_image_label = Label(self.lgn_frame, image=photo, bg='#040405')
         self.sign_in_image_label.image = photo
@@ -83,7 +83,7 @@ class Register:
         self.username_line = Canvas(self.lgn_frame, width=220, height=2.0, bg="#bdb9b1", highlightthickness=0)
         self.username_line.place(x=550, y=230)
         # ===== Username icon =========
-        self.username_icon = Image.open('Images_GUI\\username_icon.png')
+        self.username_icon = Image.open('Images\\username_icon.png')
         photo = ImageTk.PhotoImage(self.username_icon)
         self.username_icon_label = Label(self.lgn_frame, image=photo, bg='#040405')
         self.username_icon_label.image = photo
@@ -93,7 +93,7 @@ class Register:
         # ========================================================================
         # ============================login button================================
         # ========================================================================
-        self.lgn_button = Image.open('Images_GUI\\btn1.png')
+        self.lgn_button = Image.open('Images\\btn1.png')
         photo = ImageTk.PhotoImage(self.lgn_button)
         self.lgn_button_label = Label(self.lgn_frame, image=photo, bg='#040405')
         self.lgn_button_label.image = photo
@@ -117,7 +117,7 @@ class Register:
         self.password_line.place(x=550, y=310)
 
         # ======== Password icon ================
-        self.password_icon = Image.open('Images_GUI\\password_icon.png')
+        self.password_icon = Image.open('Images\\password_icon.png')
         photo = ImageTk.PhotoImage(self.password_icon)
         self.password_icon_label = Label(self.lgn_frame, image=photo, bg='#040405')
         self.password_icon_label.image = photo
@@ -135,7 +135,7 @@ class Register:
         self.password_line2.place(x=550, y=390)
         # ========================================================================
         # ============================Confirm Password icon====================================
-        self.password_icon = Image.open('Images_GUI\\password_icon.png')
+        self.password_icon = Image.open('Images\\password_icon.png')
         photo = ImageTk.PhotoImage(self.password_icon)
         self.password_icon_label = Label(self.lgn_frame, image=photo, bg='#040405')
         self.password_icon_label.image = photo
@@ -154,7 +154,7 @@ class Register:
         self.email_line = Canvas(self.lgn_frame, width=220, height=2.0, bg="#bdb9b1", highlightthickness=0)
         self.email_line.place(x=800, y=230)
 
-        self.email = Image.open('Images_GUI\\shield .png')
+        self.email = Image.open('Images\\shield .png')
         photo = ImageTk.PhotoImage(self.email)
         self.email_label = Label(self.lgn_frame, image=photo)
         self.email_label.image = photo
@@ -179,7 +179,7 @@ class Register:
         self.security_line = Canvas(self.lgn_frame, width=220, height=2.0, bg="#bdb9b1", highlightthickness=0)
         self.security_line.place(x=800, y=310)
 
-        self.security = Image.open('Images_GUI\\shield .png')
+        self.security = Image.open('Images\\shield .png')
         photo = ImageTk.PhotoImage(self.security)
         self.security_label = Label(self.lgn_frame, image=photo)
         self.security_label.image = photo
@@ -197,7 +197,7 @@ class Register:
         self.securityA_line = Canvas(self.lgn_frame, width=220, height=2.0, bg="#bdb9b1", highlightthickness=0)
         self.securityA_line.place(x=800, y=390)
 
-        self.securityA = Image.open('Images_GUI\\shield .png')
+        self.securityA = Image.open('Images\\shield .png')
         photo = ImageTk.PhotoImage(self.securityA)
         self.securityA_label = Label(self.lgn_frame, image=photo)
         self.securityA_label.image = photo
@@ -206,10 +206,10 @@ class Register:
         # ========================================================================
         # ========= show/hide password ==================================================================
         self.show_image = ImageTk.PhotoImage \
-            (file='Images_GUI\\show.png')
+            (file='Images\\show.png')
 
         self.hide_image = ImageTk.PhotoImage \
-            (file='Images_GUI\\hide.png')
+            (file='Images\\hide.png')
 
         self.show_button = Button(self.lgn_frame, image=self.show_image, command=self.show, relief=FLAT,activebackground="white", borderwidth=0, background="white", cursor="hand2")
         self.show_button.place(x=760, y=280)
