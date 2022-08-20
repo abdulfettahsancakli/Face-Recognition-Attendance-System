@@ -26,20 +26,20 @@ class TrainingImages:
      self.root.geometry("1200x675+0+0")
      self.root.title("Training Images")
 
-     header = Image.open(r"Images_GUI\Training2.jpg")
+     header = Image.open(r"Images\Training2.jpg")
      header = header.resize((1200,200), Image.ANTIALIAS)
      self.photoheader = ImageTk.PhotoImage(header)
      f_lbl = Label(self.root, image=self.photoheader)
      f_lbl.place(x=0, y=0)
 
-     train = Image.open(r"Images_GUI\Train34.jpg")
+     train = Image.open(r"Images\Train34.jpg")
      train = train.resize((1200, 475), Image.ANTIALIAS)
      self.phototrain = ImageTk.PhotoImage(train)
 
      f_lbl = Label(self.root, image=self.phototrain)
      f_lbl.place(x=0, y=200)
 
-     trn = Image.open(r"Images_GUI\TrainButton.jpg")
+     trn = Image.open(r"Images\TrainButton.jpg")
      trn = trn.resize((210, 220), Image.ANTIALIAS)
      self.phototrn = ImageTk.PhotoImage(trn)
 
