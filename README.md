@@ -17,11 +17,14 @@ In this system, some features are intended that should be completed. First of al
 
 ## Screenshots :camera:
 -----------------------------------
-# Sign Up & Login Page & Forget Password
-<div style="display: flex; justify-content: center;">
-<img src="https://github.com/abdulfettahsancakli/Face-Recognition-Attendance-System/blob/main/Screenshots/2-RegisterPage.png" alt="Signup" width=45% style="margin: 10px;">
-<img src="https://github.com/abdulfettahsancakli/Face-Recognition-Attendance-System/blob/main/Screenshots/1-LoginEkran%C4%B1.png" alt="Login" width="45%" style="margin: 10px;">
-</div>
+# Sign Up Page
+![SignUpPage](https://github.com/abdulfettahsancakli/Face-Recognition-Attendance-System/blob/main/Screenshots/2-RegisterPage.png)
+
+# Login Page
+![LoginPage](https://github.com/abdulfettahsancakli/Face-Recognition-Attendance-System/blob/main/Screenshots/1-LoginEkran%C4%B1.png)
+
+# Forget Password Page
+![ForgetPasswordPage](https://github.com/abdulfettahsancakli/Face-Recognition-Attendance-System/blob/main/Screenshots/3-ForgetPaswword.png)
 
 # Main Page 
 ![MainPage](https://github.com/abdulfettahsancakli/Face-Recognition-Attendance-System/blob/main/Screenshots/4-MainPage.png)
